@@ -1,0 +1,196 @@
+@media screen and (min-width: 1280px)
+
+{
+	h1
+	{
+		letter-spacing: 2px;
+		font-family:'Notable', sans-serif;
+		text-transform: uppercase;
+		
+	}
+	h2
+	{
+		letter-spacing: 3px;
+		color: DeepPink;
+	}
+	h3
+	{	
+		text-transform: uppercase;
+		color: DeepPink;
+	}
+	h4
+	{
+		color: Grey;
+		font-style: italic;
+	}
+	p
+	{
+		line-height: low
+	}
+	body
+	{
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	footer
+	{
+		font-size: 10px;
+	}
+#header-grid-container
+	{
+	
+	border: double 10px #6699ff;
+	padding: 15px;
+	display: grid;
+	background: #ffccf3;
+	grid-template-areas:
+		"holidaylogo"
+		"title"
+		"payoff"
+		"nav";
+	}
+#holidaylogo
+{
+	grid-area: holidaylogo;
+	width: 10%
+}
+#title
+{
+	grid-area: title;
+
+}
+#payoff
+{
+	grid-area: payoff
+	word-spacing: 10px;
+
+}
+#nav
+{	
+	grid-area: nav;	
+	height: 80px;
+	width: 100%;
+	background: #ffccf3;
+	border: solid #6699ff;
+}
+#nav > *
+{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#nav-ul 
+{
+	float: left;
+	margin-left: 40px;
+}
+#nav-li 
+{
+	display: inline-block;
+	margin: 0 10px;
+	line-height: 80px;	
+}
+#nav-li > a
+{
+	color: black;
+	font-size: 30px;
+}
+#nav-li > a:hover
+{
+	
+	color: DeepPink;
+	border: 5px dotted DeepPink;
+	transition: .3s;
+}
+#index-video
+{
+	width: 50%;
+	padding: 15px;
+}	
+#index-all-destinations
+{
+	float: left; 
+	background: #ffccf3;
+	border: double 10px #6699ff;
+	width: 70%;
+	padding: 10px;
+}
+#Article1-Curacao > a
+{
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#Article1-Curacao > a:hover
+{
+	color: DeepPink;
+	border: 5px dotted DeepPink;
+	transition: .3s;
+}
+#Article1-image-Curacao
+{
+	width: 200px;
+	float: right;
+	padding: 10px;
+}
+
+#Article2-image-Tenerife
+{
+	width: 200px;
+	float: right;
+	padding: 10px;
+}
+#Article2-Tenerife > a
+{
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#Article2-Tenerife > a:hover
+{
+	color: DeepPink;
+	border: 5px dotted DeepPink;
+	transition: .3s;
+}
+#Article3-image-Cruise
+{
+	width: 200px;
+	float: right;
+	padding: 10px;
+}
+#Article3-cruise > a
+{
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#Article3-cruise > a:hover
+{
+	color: DeepPink;
+	border: 5px dotted DeepPink;
+	transition: .3s;
+}
+#index-footer
+{
+	float: left;
+	clear: both;
+}
+#cookie-statement
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #FA0;
+	opacity: 50%;
+}
+#index-trends
+{
+	float: right;
+	width: 300px;
+	position: fixed;
+	bottom: 80px;
+	right: 0;
+	width: 450px;
+	position: fixed;
+	background-color: #ccffff;
+}
