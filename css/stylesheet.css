@@ -1,3 +1,4 @@
+/* for pc screen */
 @media screen and (min-width: 1280px)
 
 {
@@ -25,7 +26,7 @@
 	}
 	p
 	{
-		line-height: low
+		
 	}
 	body
 	{
@@ -35,6 +36,10 @@
 	{
 		font-size: 10px;
 	}
+#menuToggle
+{
+	display: none;
+}
 #header-grid-container
 	{
 	
@@ -56,13 +61,11 @@
 #title
 {
 	grid-area: title;
-
 }
 #payoff
 {
-	grid-area: payoff
+	grid-area: payoff;
 	word-spacing: 10px;
-
 }
 #nav
 {	
@@ -107,7 +110,7 @@
 	width: 50%;
 	padding: 15px;
 }	
-#index-all-destinations
+#index-all-destinations-container
 {
 	float: left; 
 	background: #ffccf3;
@@ -194,3 +197,4 @@
 	position: fixed;
 	background-color: #ccffff;
 }
+
