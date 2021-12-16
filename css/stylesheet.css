@@ -1,6 +1,8 @@
+
+
+/*homepage*/
 /* for pc screen */
 @media screen and (min-width: 1280px)
-
 {
 	h1
 	{
@@ -40,9 +42,10 @@
 {
 	display: none;
 }
+/*header*/
 #header-grid-container
 	{
-	
+	margin: 10px;
 	border: double 10px #6699ff;
 	padding: 15px;
 	display: grid;
@@ -105,6 +108,7 @@
 	border: 5px dotted DeepPink;
 	transition: .3s;
 }
+/* index */
 #index-video
 {
 	width: 50%;
@@ -117,6 +121,7 @@
 	border: double 10px #6699ff;
 	width: 70%;
 	padding: 10px;
+	margin: 10px;
 }
 #Article1-Curacao > a
 {
@@ -186,6 +191,7 @@
 	background-color: #FA0;
 	opacity: 50%;
 }
+/*aside*/
 #index-trends
 {
 	float: right;
@@ -196,5 +202,88 @@
 	width: 450px;
 	position: fixed;
 	background-color: #ccffff;
+}
+
+/* Best Destinations */
+#bestdestinations-grid-container
+{
+
+	margin: 10px;
+	background: #ffccf3;
+	/* border: double 10px #6699ff; */
+	padding: 10px;	
+	display: grid;
+	grid-gap: 15px;
+	
+	grid-template-areas:"article2 article1 article3 "
+						"article2 article1 article3 "
+						"article5 article1 article3 "
+						"article5 article1 article4 "
+						"article5 article1 article4 "
+						"article5 article1 article4 "
+						"article5 article6 article6 "		
+						"img1 img2 img3" ;
+}						
+
+#article1-bestdestinations
+{
+	grid-area: article1;
+	background: #b3ffcc;
+	padding: 10px;
+	text-align: center;
+}
+#article2-bestdestinations
+{
+	grid-area: article2;
+	background: #80ffff;
+	padding: 10px;
+	text-align: center;
+}
+#article3-bestdestinations
+{
+	grid-area: article3;
+	background: #99ffff;
+	padding: 10px;
+	text-align: center;
+}
+#article4-bestdestinations
+{
+	grid-area: article4;
+	background: #b3c6ff;
+	padding: 10px;
+	text-align: center;
+}
+#article5-bestdestinations
+{
+	grid-area: article5;
+	background: #ffad99;
+	padding: 10px;
+	text-align: center;
+}
+#article6-bestdestinations
+{
+	grid-area: article6;
+	background: #e6ffff;
+	padding: 10px;
+	text-align: center;
+}
+
+#product1-bestdestinations-cruise
+{
+	grid-area: img1;
+}
+#product2-bestdestinations-curacao
+{
+	grid-area: img2;
+}
+#product3-bestdestinations-tenerife
+{
+	grid-area: img3;
+}
+img
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
