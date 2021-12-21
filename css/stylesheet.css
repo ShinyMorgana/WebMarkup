@@ -1,379 +1,382 @@
 
 /* for pc screen */
-	body
-	{
+	body	{
 		font-family: Arial, Helvetica, sans-serif;
 	}
-	h1
-	{
+	
+	h1	{
 		letter-spacing: 2px;
 		text-transform: uppercase;		
 	}
-	h2
-	{
+	
+	h2	{
 		letter-spacing: 3px;
 		color: DeepPink;
 	}
-	h3
-	{	
+	
+	h3	{	
 		text-transform: uppercase;
 		color: DeepPink;
 	}
-	h4
-	{
+	
+	h4	{
 		color: Grey;
 		font-style: italic;
 	}
-	p
-	{
+	
+	p	{
 		
 	}
-	footer
-	{
+	
+	footer	{
 		font-size: 10px;
 	}
-#menuToggle
-{
+	
+	#menuToggle	{
 	display: none;
-}
-/*header*/
-#header-grid-container
-	{
-	margin: 10px;
-	border: double 10px #6699ff;
-	padding: 15px;
-	display: grid;
-	background: #ffccf3;
-	grid-template-areas:
-		"holidaylogo"
-		"title"
-		"payoff"
-		"nav";
 	}
-#holidaylogo
-{
-	grid-area: holidaylogo;
-	width: 10%
-}
-#title
-{
-	grid-area: title;
-}
-#payoff
-{
-	grid-area: payoff;
-	word-spacing: 10px;
-}
-#nav
-{	
-	grid-area: nav;	
-	height: 80px;
-	width: 100%;
-	background: #ffccf3;
-	border: solid #6699ff;
-}
-#nav > *
-{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-}
-#nav-ul 
-{
-	float: left;
-	margin-left: 40px;
-}
-#nav-li 
-{
-	display: inline-block;
-	margin: 0 10px;
-	line-height: 80px;	
-}
-#nav-li > a
-{
-	color: black;
-	font-size: 30px;
-}
-#nav-li > a:hover
-{	
-	color: DeepPink;
-	border: 5px dotted DeepPink;
-	transition: .3s;
-}
+	
+/*header*/
+	#header-grid-container	{
+		margin: 10px;
+		border: double 10px #6699ff;
+		padding: 15px;
+		display: grid;
+		background: #ffccf3;
+		grid-template-areas:
+			"holidaylogo"
+			"title"
+			"payoff"
+			"nav";
+	}
+	
+	#holidaylogo	{
+		grid-area: holidaylogo;
+		width: 10%
+	}
+	
+	#title	{
+		grid-area: title;
+	}
+	
+	#payoff	{
+		grid-area: payoff;
+		word-spacing: 10px;
+	}
+	
+	#nav	{	
+		grid-area: nav;	
+		height: 80px;
+		width: 100%;
+		background: #ffccf3;
+		border: solid #6699ff;
+	}
+	
+	#nav > *	{
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		list-style: none;
+	}
+		
+	#nav-ul	{
+		float: left;
+		margin-left: 40px;
+	}
+	
+	#nav-li	{
+		display: inline-block;
+		margin: 0 10px;
+		line-height: 80px;	
+	}
+	
+	#nav-li > a	{
+		color: black;
+		font-size: 30px;
+	}
+	#nav-li > a:hover	{	
+		color: DeepPink;
+		border: 5px dotted DeepPink;
+		transition: .3s;
+	}
+	
 /*footer*/
-#student-footer
-{
-	grid-area: student-footer;
-}
-#cookie-statement
-{
-	grid-area: cookie-statement;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	background-color: #FA0;
-	opacity: 50%;
-}
+	#student-footer	{
+		grid-area: student-footer;
+	}
+	
+	#cookie-statement	{
+		grid-area: cookie-statement;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		background-color: #FA0;
+		opacity: 50%;
+	}
+	
 /*index page PC*/
-#index-video
-{
-	grid-area: video;
-	width: 80%;
-	padding: 15px;
-}	
-#index-grid-container
-{
-	background: #ffccf3;
-	display: grid;
-	grid-gap: 15px;	
-	grid-template-areas:"video video video"
-						"index-article1 index-article1 aside"
-						"index-article2 index-article2 aside"
-						"index-article3 index-article3 aside"
-						"student-footer student-footer cookie-statement"
-						"student-footer student-footer cookie-statement";
-}
-#Article1-Curacao
-{
-	grid-area: index-article1;
-	padding: 10px;
-}
-#Article2-Tenerife
-{
-	grid-area: index-article2;
-	padding: 10px;
-}
-#Article3-Cruise
-{
-	grid-area: index-article3;
-	padding: 10px;
-}
+	#index-video	{
+		grid-area: video;
+		width: 80%;
+		padding: 15px;
+	}
+	
+	#index-grid-container	{
+		background: #ffccf3;
+		display: grid;
+		grid-gap: 15px;	
+		grid-template-areas:"video video video"
+							"index-article1 index-article1 aside"
+							"index-article2 index-article2 aside"
+							"index-article3 index-article3 aside"
+							"student-footer student-footer cookie-statement"
+							"student-footer student-footer cookie-statement";
+	}
+	
+	#Article1-Curacao	{
+		grid-area: index-article1;
+		padding: 10px;
+	}
+	
+	#Article2-Tenerife	{		
+		grid-area: index-article2;
+		padding: 10px;
+	}
+	
+	#Article3-Cruise	{
+		grid-area: index-article3;
+		padding: 10px;
+	}
+	
 	#index-img {
 		width: 30%;
 		float: right;
 		padding: 10px;
 	}
-#Article1-Curacao > a
-{
-	color: black;
-	font-size: 20px;
-	text-transform: uppercase;
-}
-#Article1-Curacao > a:hover
-{
-	color: DeepPink;
-	border: 5px dotted DeepPink;
-	transition: .3s;
-}
-#Article2-Tenerife > a
-{
-	color: black;
-	font-size: 20px;
-	text-transform: uppercase;
-}
-#Article2-Tenerife > a:hover
-{
-	color: DeepPink;
-	border: 5px dotted DeepPink;
-	transition: .3s;
-}
-#Article3-Cruise > a
-{
-	color: black;
-	font-size: 20px;
-	text-transform: uppercase;
-}
-#Article3-Cruise > a:hover
-{
-	color: DeepPink;
-	border: 5px dotted DeepPink;
-	transition: .3s;
-}
-#list-bestdestinations
-{
-	grid-area: aside;
-	background: #e09590;
-	font-size: 20px;
-	padding: 10px;
 	
-}
+	#Article1-Curacao > a	{
+		color: black;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	
+	#Article1-Curacao > a:hover	{
+		color: DeepPink;
+		border: 5px dotted DeepPink;
+		transition: .3s;
+	}
+	
+	#Article2-Tenerife > a	{
+		color: black;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	
+	#Article2-Tenerife > a:hover	{
+		color: DeepPink;
+		border: 5px dotted DeepPink;
+		transition: .3s;
+	}
+	
+	#Article3-Cruise > a	{
+		color: black;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	
+	#Article3-Cruise > a:hover	{
+		color: DeepPink;
+		border: 5px dotted DeepPink;
+		transition: .3s;
+	}
+	
+	#list-bestdestinations	{
+		grid-area: aside;
+		background: #ffccf3; 
+		font-size: 20px;
+		padding: 10px;		
+	}
 
 /* Best Destinations Page PC*/
-#bestdestinations-grid-container
-{
-	margin: 10px;
-	background: #ffccf3;
-	padding: 10px;	
-	display: grid;
-	grid-gap: 15px;
-	
-	grid-template-areas:"article2 article1 article3 "
-						"article2 article1 article3 "
-						"article5 article1 article3 "
-						"article5 article1 article4 "
-						"article5 article1 article4 "
-						"article5 article1 article4 "
-						"article5 article6 article6 "		
-						"product1 product2 product3"
-						"student-footer student-footer cookie-statement"
-						"student-footer student-footer cookie-statement";
-}						
-#article1-bestdestinations
-{
-	grid-area: article1;
-	background: #b3ffcc;
-	padding: 10px;
-	text-align: center;
-}
-#article2-bestdestinations
-{
-	grid-area: article2;
-	background: #80ffff;
-	padding: 10px;
-	text-align: center;
-}
-#article3-bestdestinations
-{
-	grid-area: article3;
-	background: #99ffff;
-	padding: 10px;
-	text-align: center;
-}
-#article4-bestdestinations
-{
-	grid-area: article4;
-	background: #b3c6ff;
-	padding: 10px;
-	text-align: center;
-}
-#article5-bestdestinations
-{
-	grid-area: article5;
-	background: #ffad99;
-	padding: 10px;
-	text-align: center;
-}
-#article6-bestdestinations
-{
-	grid-area: article6;
-	background: #e6ffff;
-	padding: 10px;
-	text-align: center;
-}
-
-#product1-bestdestinations-cruise
-{
-	grid-area: product1;
-}
-#product2-bestdestinations-curacao
-{
-	grid-area: product2;
-}
-#product3-bestdestinations-tenerife
-{
-	grid-area: product3;
-}
-
-#bestdestinations-img {
-	width: 80%;
-}
-/* Tickets page PC*/
-#tickets-grid-container
-{
-	background: #b3c6ff;
-	margin: 10px;
-	padding: 10px;	
-	display: grid;
-	
-		grid-template-areas:
-		"tickets-article tickets-article tickets-article"
-		"ticket-table ticket-table aside"
-		"ticket-table ticket-table aside"
-		"ticket-table ticket-table aside"
-		"ticket-table ticket-table aside"
-		"ticket-table ticket-table aside"
-		"ticket-footer ticket-footer aside"
-		"student-footer student-footer cookie-statement"
-		"student-footer student-footer cookie-statement";
+	#bestdestinations-grid-container	{
+		margin: 10px;
+		background: #ffccf3;
+		padding: 10px;	
+		display: grid;
+		grid-gap: 15px;
+		
+		grid-template-areas:"article2 article1 article3 "
+							"article2 article1 article3 "
+							"article5 article1 article3 "
+							"article5 article1 article4 "
+							"article5 article1 article4 "
+							"article5 article1 article4 "
+							"article5 article6 article6 "		
+							"product1 product2 product3"
+							"student-footer student-footer cookie-statement"
+							"student-footer student-footer cookie-statement";
 	}
-	#tickets-article
-	{
+	
+	#article1-bestdestinations	{
+		grid-area: article1;
+		background: #b3ffcc;
+		padding: 10px;
+		text-align: center;
+	}
+	
+	#article2-bestdestinations	{
+		grid-area: article2;
+		background: #80ffff;
+		padding: 10px;
+		text-align: center;
+	}
+	
+	#article3-bestdestinations	{
+		grid-area: article3;
+		background: #99ffff;
+		padding: 10px;
+		text-align: center;
+	}
+	
+	#article4-bestdestinations	{
+		grid-area: article4;
+		background: #b3c6ff;
+		padding: 10px;
+		text-align: center;
+	}
+	
+	#article5-bestdestinations	{
+		grid-area: article5;
+		background: #ffad99;
+		padding: 10px;
+		text-align: center;
+	}
+	
+	#article6-bestdestinations	{
+		grid-area: article6;
+		background: #e6ffff;
+		padding: 10px;
+		text-align: center;
+	}
+
+	#product1-bestdestinations-cruise	{
+		grid-area: product1;
+	}
+	
+	#product2-bestdestinations-curacao	{
+		grid-area: product2;
+	}
+	
+	#product3-bestdestinations-tenerife	{
+		grid-area: product3;
+	}
+
+	#bestdestinations-img {
+		width: 80%;
+	}
+	
+/* Tickets page PC*/
+	#tickets-grid-container	{
+		background: #b3c6ff;
+		margin: 10px;
+		padding: 10px;	
+		display: grid;
+		
+			grid-template-areas:
+			"tickets-article tickets-article tickets-article"
+			"ticket-table ticket-table aside"
+			"ticket-table ticket-table aside"
+			"ticket-table ticket-table aside"
+			"ticket-table ticket-table aside"
+			"ticket-table ticket-table aside"
+			"ticket-footer ticket-footer aside"
+			"student-footer student-footer cookie-statement"
+			"student-footer student-footer cookie-statement";
+	}
+	
+	#tickets-article	{
 		grid-area: tickets-article;
 		background: Pink;
 	}
-	#list-services-tickets
-	{
+	
+	#list-services-tickets	{
 		margin-left: 40px;	
 	}
-	#ticket-table
-	{	
+	
+	#ticket-table	{	
 		grid-area: ticket table;
 		width: 100%;	
 	}
-	#ticket-table th
-	{	
+	
+	#ticket-table th	{	
 		background: DeepPink;
 		border: 1px solid DeepPink;
 		text-align: left;
 	}
-	#ticket-table td
-	{
+	
+	#ticket-table td	{
 		background: Pink;
 		border: 1px solid DeepPink;
 	}
+	
 	#tickets-aside	{
 		grid-area: aside;
 	}
+	
 	#ticket-aside-img	{
 		width: 100%;
 	}
-#ticket-footer
-{
-	grid-area: ticket-footer;
-}
+	#ticket-footer	{
+		grid-area: ticket-footer;
+	}
+	
 /*contact page PC */
-#contact-grid-container
-{
-	background: #90c2e8;
-	margin: 10px;	
-	display: grid;
-	grid-gap: 15px;
-	grid-column-gap: 30%;
-	grid-template-areas: "info info info"
-						 "form form contact-aside"
-						 "form form contact-aside" 
-						 "form form contact-aside"
-						 "form form contact-aside"
-						 "form form contact-aside"
-						 "student-footer student-footer cookie-statement"
-						 "student-footer student-footer cookie-statement" ;
-}
-#contact-information
-{
-	grid-area: info;
-	text-indent: 10px;
-}
-#form
-{
-	padding: 10px;
-	grid-area: form;
-	width: 100%;
-}
-#message-box
-{
-	width: 100%;
-	height: 200px;	
-	background: #b3ffcc;
-}
-#contact-aside
-{
-	grid-area: contact-aside;
-}
-#contact-aside-img
-{
-	width: 100%;
-}
+	#contact-grid-container	{
+		background: #90c2e8;
+		margin: 10px;	
+		display: grid;
+		grid-gap: 15px;
+		grid-column-gap: 30%;
+		grid-template-areas: "info info info"
+							 "form form contact-aside"
+							 "form form contact-aside" 
+							 "form form contact-aside"
+							 "form form contact-aside"
+							 "form form contact-aside"
+							 "student-footer student-footer cookie-statement"
+							 "student-footer student-footer cookie-statement" ;
+	}
+	
+	#contact-information	{
+		grid-area: info;
+		text-indent: 10px;
+	}
+	
+	#form	{
+		padding: 10px;
+		grid-area: form;
+		width: 100%;
+	}
+	
+	#message-box	{
+		width: 100%;
+		height: 200px;	
+		background: #b3ffcc;
+	}
+	
+	#contact-aside	{
+		grid-area: contact-aside;
+	}
+	
+	#contact-aside-img	{
+		width: 100%;
+	}
+
+
+
+
+
+
 
 /* Tablet */
  @media screen and (min-width:481px) and (max-width:1179px) {
@@ -383,69 +386,80 @@
 	}
 /* index page tablet */	 
 	#index-grid-container {
-
-	background: #ffccf3;
-	display: grid;
-	grid-gap: 15px;	
-	grid-template-areas:"aside aside aside"
-						"video video video"
-						"index-article3 index-article3 index-article3"
-						"index-article2 index-article2 index-article2"
-						"index-article1 index-article1 index-article1"
-						"student-footer student-footer cookie-statement"
-						"student-footer student-footer cookie-statement";
+		background: #ffccf3;
+		display: grid;
+		grid-gap: 15px;	
+		grid-template-areas:"aside aside aside"
+							"video video video"
+							"index-article3 index-article3 index-article3"
+							"index-article2 index-article2 index-article2"
+							"index-article1 index-article1 index-article1"
+							"student-footer student-footer cookie-statement"
+							"student-footer student-footer cookie-statement";
 	}
 	
 	#index-video {
 		width: 50%;
 	}
+	
 	#index-img {
 		width: 30%;
 		float: left;
 		padding: 10px;
 	}
+	
 	#nav-li > a {
 		color: black;
 		font-size: 100%;
 	}
 	
-	/* bestdestinations page tablet */
-	#bestdestinations-grid-container {
-	margin: 10px;
-	background: #ffccf3;
-	padding: 10px;	
-	display: grid;
-	grid-gap: 15px;
+	#list-bestdestinations	{
+		background: #e09590;
+	}
 	
-	grid-template-areas:"article1 article2"
-						"article1 article2"
-						"article3 article2"
-						"article3 article5"
-						"article3 article5"
-						"article3 article5"
-						"article6 article6"
-						"article6 article6"
-						"product1 product2"
-						"product1 product2"
-						"student-footer cookie-statement"
-						"student-footer cookie-statement";
-	}	
+/* bestdestinations page tablet */
+	#bestdestinations-grid-container {
+		margin: 10px;
+		background: #ffccf3;
+		padding: 10px;	
+		display: grid;
+		grid-gap: 15px;
+		
+		grid-template-areas:"article1 article2"
+							"article1 article2"
+							"article3 article2"
+							"article3 article5"
+							"article3 article5"
+							"article3 article5"
+							"article6 article6"
+							"article6 article6"
+							"product1 product2"
+							"product1 product2"
+							"student-footer cookie-statement"
+							"student-footer cookie-statement";
+	}
+	
 	#article4-bestdestinations	{
 		display: none;
-	}	
+	}
+	
 	#product1-bestdestinations-cruise {
 		grid-area: product1;
 	}
+	
 	#product2-bestdestinations-curacao	{
 		grid-area: product2;
 	}
+	
 	#product3-bestdestinations-tenerife {
 		display: none;
 	}
+	
 	#bestdestinations-img {
 		width: 80%;
 	}
-	/* tickets page tablet */
+
+/* tickets page tablet */
 	#tickets-grid-container	{
 		background: #b3c6ff;
 		margin: 10px;
@@ -465,64 +479,71 @@
 			"student-footer cookie-statement"
 			"student-footer cookie-statement";
 	}
+	
 	#ticket-aside-img	{
 		width: 100%;
 	}
+	
 	#tickets-aside		{
 		grid-area: aside;
 		display: grid;
 		grid-template-areas:"product2 product3"
 	}
+	
 	#tickets-aside-1	{
 		display: none;
 	}
-		#tickets-aside-2	{
+	
+	#tickets-aside-2	{
 		grid-area: product2;
 	}
-		#tickets-aside-3	{
+	
+	#tickets-aside-3	{
 		grid-area: product3;
 	}
-	/* contact page tablet */
+	
+/* contact page tablet */
 	#contact-grid-container	{
-	background: #90c2e8;
-	margin: 10px;	
-	display: grid;
-	grid-gap: 15px;
-	grid-template-areas: "info info "
-						 "form contact-aside"
-						 "form contact-aside" 
-						 "form contact-aside"
-						 "form contact-aside"
-						 "form contact-aside"
-						 "student-footer cookie-statement"
-						 "student-footer cookie-statement" ;
+		background: #90c2e8;
+		margin: 10px;	
+		display: grid;
+		grid-gap: 15px;
+		grid-template-areas: "info info "
+							 "form contact-aside"
+							 "form contact-aside" 
+							 "form contact-aside"
+							 "form contact-aside"
+							 "form contact-aside"
+							 "student-footer cookie-statement"
+							 "student-footer cookie-statement" ;
 	}
+	
 	#contact-information	{
 		grid-area: info;
 		text-indent: 10px;
-		}
+	}
+	
 	#form	{
 		padding: 10px;
 		grid-area: form;
 		width: 100%;
 	}
+	
 	#message-box	{
 		width: 100%;
 		height: 200px;	
 		background: #b3ffcc;
 	}
+	
 	#contact-aside	{
 		grid-area: contact-aside;
 	}
+	
 	#contact-aside-img	{
 		width: 100%;
 	}
+	
  }
-
-
-
-
-
 
 
 
@@ -537,6 +558,7 @@
 	body { 
 		background-color: #ffccf3;
 	}	
+	
 /* hamburger menu */
 	#MobileNavigationBar	{
 		grid-area: hamburgernav;
@@ -545,6 +567,7 @@
 		right: 0;
 		width: 34%;
 	}
+	
 	#menuToggle	{		
 		display: block;
 		position: relative;
@@ -554,16 +577,19 @@
 		-webkit-user-select: none;
 		user-select: none;
 	}
+	
 	#menuToggle a {
 		color: black;
 		border: outset 5px DeepPink;
 		text-decoration: none;
 	}	
+	
 	#menuToggle a:hover	{
 		color: DeepPink;
 		border: inset 5px DeepPink;
 		transition: .3s;
 	}
+	
 	#menuToggle input	{
 		display: block;
 		width: 40px;
@@ -576,6 +602,7 @@
 		z-index: 2; 
 		-webkit-touch-callout: none;
 	}
+	
 	#menuToggle span	{
 		display: block;
 		width: 33px;
@@ -590,24 +617,30 @@
 					  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
 					  opacity 0.55s ease;
 	}
+	
 	#menuToggle span:first-child	{
 		transform-origin: 0% 0%;
 	}
+	
 	#menuToggle span:nth-last-child(2)	{
 		transform-origin: 0% 100%;
 	}
+	
 	#menuToggle input:checked ~ span	{
 		opacity: 1;
 		transform: rotate(45deg) translate(-2px, -1px);
 		background: DeepPink;
 	}
+	
 	#menuToggle input:checked ~ span:nth-last-child(3)	{
 	  opacity: 0;
 	  transform: rotate(0deg) scale(0.2, 0.2);
 	}
+	
 	#menuToggle input:checked ~ span:nth-last-child(2)	{
 	  transform: rotate(-45deg) translate(0, -1px);
 	}
+	
 	#menu	{
 		opacity: 90%;
 		position: absolute;
@@ -622,16 +655,17 @@
 		transform: translate(-250%, 0);	  
 		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 	}
-	#menu li
-	{
+	
+	#menu li	{
 		padding: 10px 0;
 		font-size: 40px;
 		text-align: center;
 	}
-	#menuToggle input:checked ~ ul
-	{
+	
+	#menuToggle input:checked ~ ul	{
 	  transform: none;
 	}
+	
 /*index mobile*/	 
 	#header-grid-container	{
 		margin: 10px;
@@ -643,72 +677,87 @@
 			"title title hamburgernav"
 			"payoff payoff hamburgernav" ;
 	}
+	
 	#holidaylogo	{
 		display: none;
 	}
+	
 	#title	{
 		grid-area: title;
 	}
+	
 	#payoff {
 		grid-area: payoff;
 		word-spacing: 10px;
 	}
+	
 	#nav	{	
 		display: none;
 	}
+	
 	#index-grid-container {
-
-	background: #ffccf3;
-	display: grid;
-	grid-gap: 15px;	
-	grid-template-areas:"aside aside aside"
-						"index-article3 index-article3 index-article3"
-						"index-article2 index-article2 index-article2"
-						"index-article1 index-article1 index-article1"
-						"student-footer student-footer cookie-statement"
-						"student-footer student-footer cookie-statement";
+		background: #ffccf3;
+		display: grid;
+		grid-gap: 15px;	
+		grid-template-areas:"aside aside aside"
+							"index-article3 index-article3 index-article3"
+							"index-article2 index-article2 index-article2"
+							"index-article1 index-article1 index-article1"
+							"student-footer student-footer cookie-statement"
+							"student-footer student-footer cookie-statement";
 	}
+	
 	#index-video {
 		display: none;
 	}
+	
 	#index-img {
 		width: 30%;
 		float: left;
 		padding: 10px;
 	}
+	
 	#nav-li > a {
 		color: black;
 		font-size: 100%;
 	}
-	/* bestdestinations mobile */
-	#bestdestinations-grid-container {
-	margin: 10px;
-	background: #ffccf3;
-	padding: 10px;	
-	display: grid;
-	grid-gap: 15px;
 	
-	grid-template-areas:"article5 article5"
-						"article3 article3"
-						"article2 article2"
-						"article1 article1"
-						"product1 product1"
-						"product2 product2"
-						"product3 product3"
-						"student-footer cookie-statement"
-						"student-footer cookie-statement";
+	#list-bestdestinations	{
+		background: #e09590;
+	}
+	
+/* bestdestinations mobile */
+	#bestdestinations-grid-container {
+		margin: 10px;
+		background: #ffccf3;
+		padding: 10px;	
+		display: grid;
+		grid-gap: 15px;
+		
+		grid-template-areas:"article5 article5"
+							"article3 article3"
+							"article2 article2"
+							"article1 article1"
+							"product1 product1"
+							"product2 product2"
+							"product3 product3"
+							"student-footer cookie-statement"
+							"student-footer cookie-statement";
 	}	
+	
 	#article4-bestdestinations	{
 		display: none;
 	}
+	
 	#article6-bestdestinations	{
 		display:none;
 	}
+	
 	#bestdestinations-img {
 		width: 80%;
 	}
-	/* tickets mobile */
 	
+/* tickets mobile */	
 	#tickets-grid-container	{
 		background: #b3c6ff;
 		margin: 10px;
@@ -726,50 +775,57 @@
 			"student-footer cookie-statement"
 			"student-footer cookie-statement";
 	}
+	
 	#ticket-table	{
 		padding: 1px;
 		width: 100%;
 	}
-	#ticket-table th
-	{	
+	
+	#ticket-table th	{	
 		background: DeepPink;
 		border: 1px solid DeepPink;
 		text-align: left;
 		font-size: 10px;
 	}
-	#ticket-table td
-	{
+	
+	#ticket-table td	{
 		background: Pink;
 		border: 1px solid DeepPink;
 		font-size: 10px;
 	}
+	
 	#tickets-article	{
 		display: none;
 	}
+	
 	#ticket-aside-img	{
 		width: 70%;
 	}
-	/* contact page mobile */
+	
+/* contact page mobile */
 	#contact-grid-container	{
-	background: #90c2e8;
-	margin: 10px;	
-	display: grid;
-	grid-gap: 15px;
-	grid-template-areas: "info info"
-						 "form form"
-						 "contact-aside contact-aside"
-						 "student-footer cookie-statement"
-						 "student-footer cookie-statement" ;
+		background: #90c2e8;
+		margin: 10px;	
+		display: grid;
+		grid-gap: 15px;
+		grid-template-areas: "info info"
+							 "form form"
+							 "contact-aside contact-aside"
+							 "student-footer cookie-statement"
+							 "student-footer cookie-statement" ;
 	}
+	
 	#contact-information	{
 		grid-area: info;
 		text-indent: 10px;
-		}
+	}
+	
 	#form	{
 		padding: 10px;
 		grid-area: form;
 		width: 80%;
 	}
+	
 	#message-box	{
 		width: 100%;
 		height: 200px;	
