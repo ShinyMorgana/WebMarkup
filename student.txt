@@ -1,0 +1,4 @@
+Student name: Jacky Eichenberger
+Student number: 561308
+Student class: INF1A
+URL student GitHub repository: your GitHub URL

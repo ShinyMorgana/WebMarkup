@@ -24,13 +24,13 @@
 		font-style: italic;
 	}
 	
-	p	{
-		
+	p, footer	{
+		font-size: 15px;
 	}
 	
-	footer	{
+/* 	footer	{
 		font-size: 10px;
-	}
+	} */
 	
 	#menuToggle	{
 	display: none;
@@ -83,22 +83,28 @@
 		float: left;
 		margin-left: 40px;
 	}
-	
-	#nav-li	{
+	#nav-ul > li	{
 		display: inline-block;
 		margin: 0 10px;
-		line-height: 80px;	
-	}
+		line-height: 80px;
+	}	
 	
-	#nav-li > a	{
+	#nav-ul > li > a	{
 		color: black;
 		font-size: 30px;
 	}
-	#nav-li > a:hover	{	
+	
+	#nav-ul > li > a:hover	{	
 		color: DeepPink;
 		border: 5px dotted DeepPink;
 		transition: .3s;
 	}
+	
+	#nav-ul > li > a:visited	{	
+		color: purple;
+		border: 5px dotted DeepPink;
+		transition: .3s;
+		}
 	
 /*footer*/
 	#student-footer	{
@@ -148,11 +154,23 @@
 		padding: 10px;
 	}
 	
-	#index-img {
+	#Article1-Curacao > a > img {
 		width: 30%;
 		float: right;
 		padding: 10px;
 	}
+	
+	#Article2-Tenerife > a > img	{		
+		width: 30%;
+		float: right;
+		padding: 10px;
+	}
+	#Article3-Cruise > a > img	{
+		width: 30%;
+		float: right;
+		padding: 10px;
+	}
+	
 	
 	#Article1-Curacao > a	{
 		color: black;
@@ -162,6 +180,12 @@
 	
 	#Article1-Curacao > a:hover	{
 		color: DeepPink;
+		border: 5px dotted DeepPink;
+		transition: .3s;
+	}
+	
+	#Article1-Curacao > a:visited	{
+		color: purple;
 		border: 5px dotted DeepPink;
 		transition: .3s;
 	}
@@ -178,6 +202,12 @@
 		transition: .3s;
 	}
 	
+	#Article2-Tenerife > a:visited	{
+		color: purple;
+		border: 5px dotted DeepPink;
+		transition: .3s;
+	}
+	
 	#Article3-Cruise > a	{
 		color: black;
 		font-size: 20px;
@@ -186,6 +216,12 @@
 	
 	#Article3-Cruise > a:hover	{
 		color: DeepPink;
+		border: 5px dotted DeepPink;
+		transition: .3s;
+	}
+	
+	#Article3-Cruise > a:visited	{
+		color: purple;
 		border: 5px dotted DeepPink;
 		transition: .3s;
 	}
@@ -271,7 +307,13 @@
 		grid-area: product3;
 	}
 
-	#bestdestinations-img {
+	#bestdestinations-img-1 {
+		width: 80%;
+	}
+	#bestdestinations-img-2 {
+		width: 80%;
+	}
+	#bestdestinations-img-3 {
 		width: 80%;
 	}
 	
@@ -304,13 +346,12 @@
 	}
 	
 	#ticket-table	{	
-		grid-area: ticket table;
+		grid-area: ticket-table;
 		width: 100%;	
 	}
 	
 	#ticket-table th	{	
 		background: DeepPink;
-		border: 1px solid DeepPink;
 		text-align: left;
 	}
 	
@@ -323,9 +364,18 @@
 		grid-area: aside;
 	}
 	
-	#ticket-aside-img	{
+	#ticket-aside-img-1	{
 		width: 100%;
 	}
+	
+	#ticket-aside-img-2	{
+		width: 100%;
+	}
+	
+	#ticket-aside-img-3	{
+		width: 100%;
+	}
+	
 	#ticket-footer	{
 		grid-area: ticket-footer;
 	}
@@ -368,9 +418,16 @@
 		grid-area: contact-aside;
 	}
 	
-	#contact-aside-img	{
+	#contact-aside-img-1	{
 		width: 100%;
 	}
+	#contact-aside-img-2	{
+		width: 100%;
+	}
+	#contact-aside-img-3	{
+		width: 100%;
+	}
+	
 
 
 
@@ -402,7 +459,18 @@
 		width: 50%;
 	}
 	
-	#index-img {
+	#Article1-Curacao > a > img {
+		width: 30%;
+		float: left;
+		padding: 10px;
+	}
+	
+	#Article2-Tenerife > a > img	{		
+		width: 30%;
+		float: left;
+		padding: 10px;
+	}
+	#Article3-Cruise > a > img	{
 		width: 30%;
 		float: left;
 		padding: 10px;
@@ -455,9 +523,7 @@
 		display: none;
 	}
 	
-	#bestdestinations-img {
-		width: 80%;
-	}
+	
 
 /* tickets page tablet */
 	#tickets-grid-container	{
@@ -480,7 +546,13 @@
 			"student-footer cookie-statement";
 	}
 	
-	#ticket-aside-img	{
+	#ticket-aside-img-1	{
+		width: 100%;
+	}
+	#ticket-aside-img-2	{
+		width: 100%;
+	}
+	#ticket-aside-img-3	{
 		width: 100%;
 	}
 	
@@ -539,7 +611,10 @@
 		grid-area: contact-aside;
 	}
 	
-	#contact-aside-img	{
+	#contact-aside-img-1	{
+		width: 100%;
+	}
+	#contact-aside-img-2	{
 		width: 100%;
 	}
 	
@@ -557,7 +632,11 @@
 
 	body { 
 		background-color: #ffccf3;
-	}	
+	}
+	
+		p, footer	{
+		font-size: 10px;
+	}
 	
 /* hamburger menu */
 	#MobileNavigationBar	{
@@ -574,7 +653,6 @@
 		top: 50px;
 		left: 50px;		  
 		z-index: 1;		 
-		-webkit-user-select: none;
 		user-select: none;
 	}
 	
@@ -599,8 +677,7 @@
 		left: -5px;		  
 		cursor: pointer;		  
 		opacity: 0; 
-		z-index: 2; 
-		-webkit-touch-callout: none;
+		z-index: 2; 		
 	}
 	
 	#menuToggle span	{
@@ -650,7 +727,6 @@
 		padding-top: 100px;	  
 		background: #e6b6b3;
 		list-style-type: none;
-		-webkit-font-smoothing: antialiased;	 	  
 		transform-origin: 0% 0%;
 		transform: translate(-250%, 0);	  
 		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -709,9 +785,20 @@
 	
 	#index-video {
 		display: none;
+	}	
+
+	#Article1-Curacao > a > img {
+		width: 30%;
+		float: left;
+		padding: 10px;
 	}
 	
-	#index-img {
+	#Article2-Tenerife > a > img	{		
+		width: 30%;
+		float: left;
+		padding: 10px;
+	}
+	#Article3-Cruise > a > img	{
 		width: 30%;
 		float: left;
 		padding: 10px;
@@ -753,9 +840,6 @@
 		display:none;
 	}
 	
-	#bestdestinations-img {
-		width: 80%;
-	}
 	
 /* tickets mobile */	
 	#tickets-grid-container	{
@@ -783,14 +867,12 @@
 	
 	#ticket-table th	{	
 		background: DeepPink;
-		border: 1px solid DeepPink;
 		text-align: left;
 		font-size: 10px;
 	}
 	
 	#ticket-table td	{
 		background: Pink;
-		border: 1px solid DeepPink;
 		font-size: 10px;
 	}
 	
@@ -798,7 +880,13 @@
 		display: none;
 	}
 	
-	#ticket-aside-img	{
+	#ticket-aside-img-1	{
+		width: 70%;
+	}
+	#ticket-aside-img-2	{
+		width: 70%;
+	}
+	#ticket-aside-img-3	{
 		width: 70%;
 	}
 	
@@ -831,4 +919,11 @@
 		height: 200px;	
 		background: #b3ffcc;
 	}
+	#contact-aside-img-1	{
+		width: 100%;
+	}
+	#contact-aside-img-2	{
+		width: 100%;
+	}
+	
  }
