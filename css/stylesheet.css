@@ -118,6 +118,7 @@
 		right: 0;
 		background-color: #FA0;
 		opacity: 50%;
+		z-index: 9999;
 	}
 	
 /*index page PC*/
